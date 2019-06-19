@@ -23,7 +23,7 @@ function preciseSleep(milliseconds) {
 }
 
 function promiseAsyncroFunction(resolve, reject) {
-    preciseSleep(5000);
+    preciseSleep(500);
     //reject("no");
     resolve("timer ding 5000");
     /*setTimeout(() => {
@@ -34,7 +34,7 @@ function promiseAsyncroFunction(resolve, reject) {
 }
 
 function promiseAsyncroFunction2(resolve, reject) {
-    preciseSleep(1000);
+    preciseSleep(100);
     //reject("no");
     resolve("timer ding 1000");
     /*setTimeout(() => {
