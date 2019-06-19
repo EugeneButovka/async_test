@@ -25,7 +25,7 @@ function preciseSleep(milliseconds) {
 function promiseAsyncroFunction(resolve, reject) {
     preciseSleep(100);
     //reject("no");
-    resolve("timer ding 5000");
+    resolve("timer ding 100");
     /*setTimeout(() => {
         // переведёт промис в состояние fulfilled с результатом "result"
         resolve("ok");
